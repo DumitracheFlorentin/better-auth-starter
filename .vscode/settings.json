@@ -1,0 +1,43 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.tabWidth": 2,
+    "prettier.semi": true,
+    "prettier.printWidth": 80,
+    "prettier.bracketSpacing": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "lf",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/build": true,
+      "**/.git": true,
+      "**/.DS_Store": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/build": true,
+      "**/package-lock.json": true,
+      "**/yarn.lock": true
+    },
+    "files.associations": {
+      "*.ts": "typescript",
+      "*.tsx": "typescriptreact",
+      "*.js": "javascript",
+      "*.jsx": "javascriptreact",
+      "*.json": "json"
+    }
+  } 
